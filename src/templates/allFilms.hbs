@@ -1,0 +1,10 @@
+<ul>
+    {{#each results}}
+    <li class="list-item">
+        <div class="poster_home"
+            style="background-image: url('https://image.tmdb.org/t/p/w400/{{this.backdrop_path}}')">
+            <h3>{{this.title}}</h3>
+        </div>
+    </li>
+    {{/each}}
+</ul>
