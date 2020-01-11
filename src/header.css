@@ -1,0 +1,19 @@
+.top-menu {
+    width: 100%;
+    display: -webkit-flex;
+    display: flex;
+    background: #77c1bb;
+    padding-left: 0;
+  }
+
+  .menu-main {
+    list-style: none;
+    display: flex;
+    background: #77c1bb;
+    color: #556270;
+    font-size: 18px;
+  }
+
+  .menu-main a:hover {
+    color: #372c48
+  }
