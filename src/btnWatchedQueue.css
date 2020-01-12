@@ -1,0 +1,47 @@
+
+    .watched-container {
+        width: 100%;
+        height: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        vertical-align: middle;
+        background-color: white;
+        padding: 0;
+        margin: 0;
+        box-shadow: 0px 5px 5px #ebebeb;
+      }
+  
+      .btn {
+        cursor: pointer;
+        width: 140px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        vertical-align: middle;
+        background-color: white;
+        color: #556270;
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        font-weight: 700;
+        text-decoration: none;
+        background-color: white;
+        border-bottom: 3px solid #556270;
+        border-left: none;
+        border-right: none;
+        border-top: none;
+      }
+  
+      .btn:hover {
+        background-color: #77c1bb;
+        border: none;
+        color: white;
+  
+      }
+  
+      .btn.active {
+        background-color: #77c1bb;
+        border: none;
+        color: white;
+      }
