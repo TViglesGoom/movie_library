@@ -9,7 +9,7 @@ export default function (number, current) {
     res += "<span>...</span>"
   }
   let temp = number > 2 ? 0 : (number === 2 ? 1 : 2);
-  for (let i = 0; i < 2; i++) {
+  for (let i = 0; i < 2 - temp; i++) {
     res += `<button class="pug-btn" data-page="${current + i}">${current + i}</button>`;
   }
   if (current < number - 2) {
