@@ -1,0 +1,15 @@
+.top-menu ul {
+    display: -webkit-flex; 
+    display: flex;
+    background: #FFD7A7;
+    padding-left: 0;
+  }
+  .top-menu a {
+    padding: 1em;
+    display: block;
+    color: #9B4222;
+    border-right: 1px solid #FFAB51;
+    background: rgba(255, 171, 81, .3);
+  }
+  .top-menu a:hover {background: #FFAB51}
+  

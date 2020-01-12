@@ -1,5 +1,4 @@
 import './styles.css';
-import { constants } from 'perf_hooks';
 
 function handleClick(e) {
     console.dir(e.target)
@@ -58,11 +57,11 @@ if (watched) {
 
 // Делаю API запрос 
 
-getWachedFilms()
+getWachedFilmsBySearch()
 
 // Функция которая будет возвращать результат fetch к указаному url
 
-function getWachedFilms() {
+function getWachedFilmsBySearch() {
     return fetch(
         'https://api.themoviedb.org/3/search/movie?api_key=a44fa9b82760a2bc65fcbc5bfbd17e96&query=sun&page=1'
     )
@@ -73,5 +72,37 @@ function getWachedFilms() {
         .catch(err => {
             console.error("Error: ", err);
         });
+}
+
+function getWachedFilmsList() {
+    return fetch(
+        'https://api.themoviedb.org/4/list/1?page=1&api_key=a44fa9b82760a2bc65fcbc5bfbd17e96'
+    )
+        .then(response => {
+            if (response.ok) return response.json();
+            throw new Error("Error fetching data");
+        })
+        .catch(err => {
+            console.error("Error: ", err);
+        });
+}
+
+//получаем ссылку на кнопку addToWatched
+
+const refs = {
+    watchedBtn: document.querySelector(".js-add-to-watched")
+}
+
+//вешаем обработчик событий на кнопку addToWatched
+
+refs.watchedBtn.addEventListener("click", handleClickWached);
+
+
+function handleClickWached(e) {
+    console.dir(e.target)
+    if (e.target.classList.contains("js-add-to-watched")) {
+        getWachedFilmsList()
+    }
+    console.log(response)
 }
 
