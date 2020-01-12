@@ -1,10 +1,8 @@
-<ul>
-    {{#each results}}
-    <li class="list-item">
-        <div class="poster_home"
-            style="background-image: url('https://image.tmdb.org/t/p/w400/{{this.backdrop_path}}')">
-            <h3>{{this.title}}</h3>
-        </div>
-    </li>
-    {{/each}}
-</ul>
+<div class="container">
+  <input type="text" id="movie-input"/>
+  <ul id="movies">
+  </ul>
+  <button>prev</button>
+  <div id="pug-div"></div>
+  <button>next</button>
+</div>

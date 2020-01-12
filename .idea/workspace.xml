@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="28672c09-3f59-49fb-bfb4-cdc54645dab0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/addFilmDetails.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/createPugNav.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/logoFilm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/movie.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/templates/cardTempl.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/templates/library.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/templates/movies.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/apiMovies.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/apiMovies.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/bg-pattern.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/intro.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/allFilms.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/allFilms.hbs" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\Admin\Desktop\movie library\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1WF7zNNaMbYclTvdl2uTK1ysyzu" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/images" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\Admin\AppData\Roaming\npm\node_modules\prettier" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\Desktop\movie library\src\images" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="28672c09-3f59-49fb-bfb4-cdc54645dab0" name="Default Changelist" comment="" />
+      <created>1578733757833</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578733757833</updated>
+      <workItem from="1578733781158" duration="103000" />
+      <workItem from="1578733901362" duration="21383000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="527" y="221" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1578735299767">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="527" y="221" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.834@0.0.1536.834" timestamp="1578735299767" />
+    <state width="1515" height="213" key="GridCell.Tab.0.bottom" timestamp="1578823636038">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1515" height="213" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1578823636038" />
+    <state width="1515" height="213" key="GridCell.Tab.0.center" timestamp="1578823636038">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1515" height="213" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1578823636038" />
+    <state width="1515" height="213" key="GridCell.Tab.0.left" timestamp="1578823636038">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1515" height="213" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1578823636038" />
+    <state width="1515" height="213" key="GridCell.Tab.0.right" timestamp="1578823636038">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1515" height="213" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1578823636038" />
+    <state x="425" y="189" key="run.anything.popup" timestamp="1578829015261">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="425" y="189" key="run.anything.popup/0.0.1536.834@0.0.1536.834" timestamp="1578829015261" />
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1578838233752">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1578838233752" />
+  </component>
+</project>

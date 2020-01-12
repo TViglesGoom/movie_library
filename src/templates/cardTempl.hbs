@@ -1,0 +1,22 @@
+
+<div class="details">
+  <div class="details-picture">
+    <img class="details-picture-poster" src=" https://image.tmdb.org/t/p/w500/{{this.poster_path}}" alt="{{this.title}}">
+  </div>
+  <div class="details-info">
+    <h1 class="details-info-title">{{this.title}}</h1>
+    <ul class="details-info-specification">
+      <li class="specification-line"><span class="genre">vote/votes</span><span>{{vote_average}}/{{vote_count}}</span></li>
+      <li class="specification-line"><span class="genre">popularity</span class="genres"><span>{{this.popularity}}</span></li>
+      <li class="specification-line"><span class="genre">original title</span><span>{{this.original_title}}</span></li>
+      <li class="specification-line"><span class="genre">genre</span> <span>{{#each this.genres}}
+        {{this.name}},
+      {{/each}}</span>
+    </ul>
+    <h2 class="details-info-title">About</h2>
+    <p>{{this.overview}}</p>
+    <div class="details-info-links">
+      <button href="" class="false" id="watched-btn"><img src="" alt="">Add to watched</button>
+      <button href="" class="false" id="queue-btn"><img src="" alt="">Add to queue</button></div>
+  </div>
+</div>

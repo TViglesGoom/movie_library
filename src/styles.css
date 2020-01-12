@@ -17,7 +17,7 @@ body {
    * CSS image reference example.
    */
 }
-#js-input {
+#movie-input {
   margin: 50px;
   width: 500px;
   border-radius: 6px;
@@ -33,12 +33,129 @@ body {
 }
 h3 {
   color: #ffffff;
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   font-size: 15px;
   font-weight: 500;
   line-height: 17.4px;
   text-align: center;
 }
-.list-item {
+.movie {
   list-style: none;
+}
+
+.top-menu {
+  width: 100%;
+  height: 65px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  vertical-align: middle;
+  background: #77c1bb;
+  padding: 0;
+  margin: 0;
+
+}
+
+.menu-main {
+  list-style: none;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  vertical-align: middle;
+  align-items: center;
+  background: #77c1bb;
+  color: #556270;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+}
+
+.item-container {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  background: #77c1bb;
+  color: #556270;
+  text-decoration: none;
+  width: 120px;
+  padding: 0px;
+  height: 55px;
+}
+
+.menu-item {
+  list-style: none;
+  text-decoration: none;
+  font-size: 18px;
+  color: #556270;
+}
+
+.item-container:hover {
+  border-bottom: 3px solid #556270;
+}
+
+.menu-item.active {
+  border-bottom: 3px solid #556270;
+}
+
+.navbar-logo {
+  list-style: none;
+  text-decoration: none;
+  margin: 30px;
+  font-size: 0px;
+}
+
+.menu-main a:hover {
+  color: #372c48
+}
+
+@media (min-width: 768px) {
+  .navbar-logo {
+    color: #372c48;
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .navbar-logo {
+    color: #372c48;
+    font-size: 18px;
+  }
+}
+
+.footer-container {
+  width: 100%;
+  height: 86px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
+  background: #77c1bb;
+  padding: 0;
+  margin: 0;
+
+}
+
+.js-footer {
+  width: 180px;
+  list-style: none;
+  display: flex;
+  background: #77c1bb;
+  color: #556270;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+@media (min-width: 768px) {
+  .js-footer {
+    width: 220px;
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .js-footer {
+    width: 250px;
+    font-size: 20px;
+  }
 }
