@@ -2,14 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1760fa1-33cd-468a-bfd7-0aff2738d023" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/createPugNav.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/createPugNav.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/movie.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/movie.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/templates/allFilms.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/allFilms.hbs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/templates/cardTempl.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/cardTempl.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/templates/library.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/library.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/movies.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/movies.hbs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +32,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -52,7 +56,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1578840228778</updated>
-      <workItem from="1578840249783" duration="5910000" />
+      <workItem from="1578840249783" duration="10149000" />
     </task>
     <servers />
   </component>
@@ -60,6 +64,34 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state width="1515" height="214" key="GridCell.Tab.0.bottom" timestamp="1578848550142">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1515" height="214" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1578848550142" />
+    <state width="1515" height="214" key="GridCell.Tab.0.center" timestamp="1578848550142">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1515" height="214" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1578848550142" />
+    <state width="1515" height="214" key="GridCell.Tab.0.left" timestamp="1578848550142">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1515" height="214" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1578848550142" />
+    <state width="1515" height="214" key="GridCell.Tab.0.right" timestamp="1578848550142">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1515" height="214" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1578848550142" />
+    <state x="147" y="72" key="MergeDialog" timestamp="1578847852601">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="147" y="72" key="MergeDialog/0.0.1536.834@0.0.1536.834" timestamp="1578847852601" />
+    <state x="481" y="134" key="MultipleFileMergeDialog" timestamp="1578847852618">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="481" y="134" key="MultipleFileMergeDialog/0.0.1536.834@0.0.1536.834" timestamp="1578847852618" />
+    <state x="567" y="210" key="git4idea.merge.GitMergeDialog" timestamp="1578847672416">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="567" y="210" key="git4idea.merge.GitMergeDialog/0.0.1536.834@0.0.1536.834" timestamp="1578847672416" />
     <state x="431" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1578845902592">
       <screen x="0" y="0" width="1536" height="834" />
     </state>

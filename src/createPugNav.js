@@ -1,6 +1,5 @@
 export default function (number, current) {
   let res = '';
-
   let pugNav = document.querySelector("#pug-div");
   res += `<button class="pug-btn" data-page="${1}">${1}</button>`;
   current = Math.max(2, current);

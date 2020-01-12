@@ -1,28 +1,29 @@
 import './styles.css';
 import './movie.css';
 import movies from './apiMovies';
-import createPugNav from "./createPugNav";
-import templateMovies from "./templates/movies.hbs";
+import createPugNav from './createPugNav';
+import templateMovies from './templates/movies.hbs';
 import templateAllFilms from './templates/allFilms.hbs';
-import addFilmDetails from "./addFilmDetails";
+import addFilmDetails from './addFilmDetails';
 import cardTemplate from './templates/cardtempl.hbs';
-import templateLibrary from "./templates/library.hbs";
+import templateLibrary from './templates/library.hbs';
+// require('@fontawersome/fontawersome-free/js/all');
 const debounce = require('lodash.debounce');
 
 const refs = {
-  main: document.querySelector("main"),
-  apiKey: "a44fa9b82760a2bc65fcbc5bfbd17e96",
-  movie: "movie",
-  search: "search",
-  library: "library",
-  watched: "watched",
-  queue: "queue",
+  main: document.querySelector('main'),
+  apiKey: 'a44fa9b82760a2bc65fcbc5bfbd17e96',
+  movie: 'movie',
+  search: 'search',
+  library: 'library',
+  watched: 'watched',
+  queue: 'queue',
 };
 
 export default refs;
 
 function addToList(listType, movie) {
-  let btn = document.getElementById(listType + "-btn");
+  let btn = document.getElementById(listType + '-btn');
   let list = localStorage.getItem(listType);
   if (list) list = JSON.parse(list);
   else list = [];
@@ -79,16 +80,31 @@ function popstateChange() {
     if (location.hash !== "#" + refs.search) {
       if (!moviesList) moviesList = document.querySelector("#movies");
       let params = new URLSearchParams(location.hash.replace("#" + refs.search, ""));
-      let page = params.get("page");
+      let page = Number(params.get("page"));
       movies.fetchMovies(params.get("request"), page).then(data => {
         moviesList.innerHTML = templateMovies(data);
-        createPugNav(data.total_pages, params.get("page"));
-        document.getElementById("prev-btn").addEventListener("click", () => {
-          location.hash = location.hash.replace(/page=\d+/, `page=${Math.max(1, Number(page) - 1)}`);
-        });
-        document.getElementById("next-btn").addEventListener("click", () => {
-          location.hash = location.hash.replace(/page=\d+/, `page=${Math.min(data.total_pages, Number(page) + 1)}`);
-        })
+        createPugNav(data.total_pages, page);
+        let prevBtn = document.getElementById("prev-btn");
+        let nextBtn = document.getElementById("next-btn");
+        if (!prevBtn.dataset.listened) {
+          prevBtn.addEventListener("click", debounce(() => {
+            let params = new URLSearchParams(location.hash.replace("#" + refs.search, ""));
+            let page = Number(params.get("page"));
+            if (page > 1)
+              location.hash = location.hash.replace(/page=\d+/, `page=${page - 1}`);
+          }, 50));
+          prevBtn.dataset.listened = "true";
+        }
+
+        if (!nextBtn.dataset.listened) {
+          nextBtn.addEventListener("click", debounce(() => {
+            let params = new URLSearchParams(location.hash.replace("#" + refs.search, ""));
+            let page = Number(params.get("page"));
+            if (page < data.total_pages)
+              location.hash = location.hash.replace(/page=\d+/, `page=${Math.min(page + 1)}`);
+          }, 50));
+          nextBtn.dataset.listened = "true";
+        }
       });
     }
   } else if (location.hash.startsWith("#" + refs.movie)) {
